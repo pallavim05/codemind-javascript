@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Assignment</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1 id="heading">HTML & JavaScript are crucial technologies</h1>
+            <p>The web would not work without them</p>
+
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li id="secondElement">Available</li>
+                <li>Magical</li>
+                
+            </ul>
+
+        </div>
+    </main>
+    <script>
+        console.log("==== show main heading=====");
+        const mainHeading = document.querySelector("#heading")
+        console.log(mainHeading.innerText);
+        console.log("==== show the li tag ====");
+        const secondAdvantage = document.querySelector("#secondElement");
+        console.log(secondAdvantage.innerText);
+        console.log("==== show advantages div all text ===");
+        const addElements = document.querySelectorAll("#advantages");
+    for (const element of addElements) {
+        console.log(element.innerText);
+        
+        
+    }
+        
+        
+        
+        
+        
+        
+        
+    </script>
+    
+</body>
+</html>

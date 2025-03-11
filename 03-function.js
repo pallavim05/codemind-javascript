@@ -26,7 +26,7 @@ square(8)
   var returnValue = addition(5, 7, 8, 9);
   console.log(`Addition is: ${returnValue}`);
   
-function fullName(firstName,){
+function fullName(firstName,last){
 
 }
 fullName("Pallavi","Asaram ","Mogare");
