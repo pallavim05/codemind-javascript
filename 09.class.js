@@ -18,6 +18,14 @@ class Student{
 const stdJenny = new Student("Jenny", "COEP", "90%", "Pune");
 stdJenny.details();
 
+console.log("before property add", stdJenny);
+
+
+stdJenny.test = "jhdsbfdjsafbsajf";
+
+console.log("after property add", stdJenny);
+
+
 const stdStew = new Student("Stew", "MIT", "67%", "LA");
 stdStew.details();
 

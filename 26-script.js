@@ -41,6 +41,28 @@ const reactElement = document.getElementById("react");
     paraElement.appendChild(textNode);
     const footer = document.querySelector("footer");
     footer.appendChild(paraElement);
+
+    console.log("====== Delete a node ======");
+    const liElement = document.querySelector("#dance");
+    const hobbiesElement = document.querySelector("#hobbies");
+    hobbiesElement.removeChild(liElement);
+
+    console.log("=== Events ===");
+    const hobbiesHeadingElement = document.querySelector("#hobbiesHeading");
+    hobbiesHeadingElement.addEventListener("click",()=>{
+        console.log("Hey Buddy...Smile!!");
+        
+    })
+    const submitBtn = document.querySelector("#submit");
+    submitBtn.addEventListener("click",()=>{
+        const varNum = prompt("Enter the number",1);
+        confirm("Are you sure get square!")
+        alert(varNum*varNum);
+    })
+
+    
+    
+    
     
 
         
